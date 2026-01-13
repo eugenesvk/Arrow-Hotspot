@@ -1,0 +1,61 @@
+; Arrow•Hotspot mouse cursor theme (ArHs¦0 32𝑏 32–128px hsRed•)
+  ; with some icons from ml.blau 3 2016-06-10 originally by Maik Lindner @ maik.deviantart.com
+; 🮰 Arrow: bigger, no pointless tail, with a tiny red dot for the hotspot•, used for all the basic forms:
+  ; … links    : signal less obtrusively with a change of tip color as it's often already obvious that you can click a link without the whole extra noise of changing the mouse pointer
+  ; … work/busy: signal less obtrusively with a red filler color, which is especially useful when the work only lasts a fraction of a second, so doesn't warrant a "bigger" signal of changing to a different pointer shape
+  ; … pin/people for the same reason and for consistency
+; ⌶ Text : inverted ¦ with a middle gap and a red middle hotspot• dot to indicate position without obscuring text
+; Others: Added red dot/cross for the hotspot•
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%people%"
+
+[Scheme.Cur]
+ArHs¦1a 🮰Arrow no tail hs•.cur
+ArHs¦1b 🮰Arrow Help.cur
+ArHs¦2a 🮰Arrow Work bg red_band_top½↕.ani
+ArHs¦2b 🮰Arrow Busy fg red_fill↕.ani
+ml_blau_precision_hires.cur
+ArHs¦4 ⌶Text.cur
+ml_blau_pen_hires.cur
+ml_blau_unavailable_hires.cur
+ml_blau_resize_vertical_hires.cur
+ml_blau_resize_horizontal_hires.cur
+ml_blau_resize_diagonal_left_hires.cur
+ml_blau_resize_diagonal_right_hires.cur
+ml_blau_move_hires.cur
+ml_blau_alternate_hires.cur
+ArHs¦5 🮰Arrow Link blue_tip.cur
+ArHs¦6a 🮰Arrow Pin blue_tip.cur
+ArHs¦6b 🮰Arrow People blue_tip.cur
+
+[Strings]
+CUR_DIR     	= "Cursors\ArHs⋅2"
+SCHEME_NAME 	= "ArHs⋅2"
+pointer     	= "ArHs¦1a 🮰Arrow no tail hs•.cur"
+help        	= "ArHs¦1b 🮰Arrow Help.cur"
+work        	= "ArHs¦2a 🮰Arrow Work bg red_band_top½↕.ani"
+busy        	= "ArHs¦2b 🮰Arrow Busy fg red_fill↕.ani"
+cross       	= "ml_blau_precision_hires.cur"
+text        	= "ArHs¦4 ⌶Text.cur"
+hand        	= "ml_blau_pen_hires.cur"
+unavailiable	= "ml_blau_unavailable_hires.cur"
+vert        	= "ml_blau_resize_vertical_hires.cur"
+horz        	= "ml_blau_resize_horizontal_hires.cur"
+dgn1        	= "ml_blau_resize_diagonal_left_hires.cur"
+dgn2        	= "ml_blau_resize_diagonal_right_hires.cur"
+move        	= "ml_blau_move_hires.cur"
+alternate   	= "ml_blau_alternate_hires.cur"
+link        	= "ArHs¦5 🮰Arrow Link blue_tip.cur"
+pin         	= "ArHs¦6a 🮰Arrow Pin blue_tip.cur"
+people      	= "ArHs¦6b 🮰Arrow People blue_tip.cur"
